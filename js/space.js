@@ -18,7 +18,7 @@ btn.addEventListener('click', () => {
                 <div class="card col-3 p-1 mx-2 my-3">
                     <img src="${info.links[0].href}" class="img col-12">
                     <h4 class="title px-3 mt-4">${info.data[0].title}</h4>
-                    <p class="description px-3">${info.data[0].description_508}</p>
+                    <p class="description px-3">${info.data[0].description}</p>
                     <div class="date">
                         <p class="px-3 mt-3">${info.data[0].date_created}</p>
                     </div>
