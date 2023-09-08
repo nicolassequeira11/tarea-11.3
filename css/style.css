@@ -1,0 +1,34 @@
+main {
+    min-height: calc(100vh - 160px);
+  }
+
+.card{
+  overflow: hidden;
+  height: 500px;
+}
+
+.img{
+  height: 200px;
+  object-fit: cover;
+  overflow: hidden;
+  transition: all 0.2s;
+}
+
+.card:hover > .img{
+  transform: scale(1.07);
+}
+
+.title{
+  height: 60px;
+  font-size: 20px;
+}
+
+.description{
+  overflow-y: scroll;
+  height: 120px;
+}
+
+.date{
+  font-size: 14px;
+  margin-top: 10px;
+}
